@@ -1,10 +1,22 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Karla' ,
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  background-color: #219F94;
+  padding: 20px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/23/678-game-dice.svg");
+  background-repeat: repeat;
+  backdrop-filter: blur(5px);
+  height: 100vh;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 code {
